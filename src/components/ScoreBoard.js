@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import '../css/scoreboard.css';
 
 class ScoreBoard extends React.Component {
-    
+    constructor(props) {
+        super(props);
+    }
 }
 
 const INITIAL_STATE = {
